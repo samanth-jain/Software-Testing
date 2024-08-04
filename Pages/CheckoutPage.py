@@ -19,7 +19,7 @@ class CheckoutPage():
         self.region_xpath = "//select[@id='input-payment-zone']"
         self.continue2_xpath = "//input[@id='button-guest']"
         self.continue4_xpath = "//input[@id='button-shipping-method']"
-        self.tnc_xpath = "//input[@name='agree']"
+        self.tnc_xpath = '//input[@type="checkbox" and @name="agree" and @value="1"]'
         self.continue5_xpath = "//input[@id='button-payment-method']"
         self.total_xpath = "//table[@class='table table-bordered table-hover']/tfoot/tr[3]/td[2]"
         self.confirmorder_xpath = "//input[@id='button-confirm']"
